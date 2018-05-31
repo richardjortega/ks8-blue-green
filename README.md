@@ -163,3 +163,9 @@ Traffic is will now point to the Green version app (which should now show "Hello
 Note that in a production scenario, you may have longer requests being handled, so don't delete Blue until its been fully drained.
 
 Also, keep Blue version up will allow for an easy rollback if necessary.
+
+## Further readings
+
+- [AKS Networking Overview](https://docs.microsoft.com/en-us/azure/aks/networking-overview)
+- [Use an internal load balancer with Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/internal-lb)
+- [HTTPS Ingress on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/ingress)
