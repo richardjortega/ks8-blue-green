@@ -228,5 +228,4 @@ If you'd like to specify an IP address for the ILB, you can add a `loadBalancerI
 ## Further readings
 
 - [AKS Networking Overview](https://docs.microsoft.com/en-us/azure/aks/networking-overview)
-- [Use an internal load balancer with Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/internal-lb)
 - [HTTPS Ingress on Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/ingress)
