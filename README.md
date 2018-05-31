@@ -99,7 +99,7 @@ $ kubectl apply -f kube/service.yaml
 Find the **EXTERNAL-IP** given to the service via:
 
 ```
-$ kubectl get svc nodejs-hello-world
+$ kubectl get svc nodejs-hello-world --watch
 ```
 
 ```
