@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-hello-world",
+  "version": "1.0.0",
+  "description": "Echo hello world using NodeJS and Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Richard Ortega - Microsoft",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
