@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  name: ystevenin-go-5
+  labels: 
+    name: ystevenin-go-5
+spec:
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+  selector: 
+    name: ystevenin-go-5
+    version: "blue"
+  type: LoadBalancer

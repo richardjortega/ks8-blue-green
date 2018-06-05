@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: ystevenin-go-5-green
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        name: ystevenin-go-5
+        version: "green"
+    spec:
+      containers: 
+        - name: ystevenin-go-5
+          image: ystevenin/go:5
+          ports:
+            - name: http
+              containerPort: 8080
